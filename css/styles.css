@@ -4,6 +4,10 @@
 
 /* Navigation */
 
+:focus {
+  outline: 0;
+}
+
 #menu-switch {
   display: none;
 }
