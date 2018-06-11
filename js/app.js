@@ -22,3 +22,10 @@ $( function(){
     });
   });
 });
+
+$(window).click( function(e) {
+  target = $(event.target);
+  if(target.is('a')){
+   $('#menu-switch').prop('checked', false);
+  }
+});
