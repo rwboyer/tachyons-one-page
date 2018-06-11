@@ -2,6 +2,28 @@
   font-family: 'lato', sans-serif;
 }
 
+.sideline{
+  transform: translateX(-100%) rotate(-90deg);
+  transform-origin: top right;
+}
+
+.top-200{
+  top: 200px
+}
+
+.bar{
+  height: 1px;
+  width: 8rem;
+}
+
+.f-super{
+  font-size: 14rem;
+}
+
+.f-xsuper{
+  font-size: 40rem;
+}
+
 /* Navigation */
 
 :focus {
@@ -91,7 +113,7 @@
 
 #menu-toggle {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   width: 51px;
   height: 51px;
   cursor: pointer;
