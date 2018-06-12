@@ -4,10 +4,12 @@
     {{ if isset . "subtitle" }}
     <h2 class="mv0 mh2 mh0-ns f1 f-subheadline-ns fw3 lh-title white tc">{{ .subtitle | safeHTML }}</h2>
     {{ end }}
-    <a href="mailto:info@cdox.cc" class="dib mt4 link w-auto-ns bg-transparent white f5 pv2 pv3-ns ph4 ba b--white dim ttu">Let's Start</a>
+    <a href="mailto:info@cdox.cc" class="dib mt4 link w-auto-ns bg-transparent {{ cond (isset . "bcolor") .bcolor "white" }} f5 pv2 pv3-ns ph4 ba {{ cond (isset . "bcolor")   (printf "b--%s" .bcolor) "b--white"}} dim ttu">{{ .button }}</a>
   </div>
+  {{ if isset . "sideline" }}
   <div class="sideline absolute top-200 left-0 inline-flex items-center">
-    <span class="bar dib mr2 bg-white"></span>
-    <h3 class="mv3 f6 fw5 tracked-mega white ttu">Fashion | Editorial | Portrait</h3>
-  </div>  
+    <span class="bar dib mr2 {{ cond (isset . "sidecolor") (printf "bg-%s" .sidecolor) "bg-white" }}"></span> 
+    <h3 class="mv3 f6 fw5 tracked-mega ttu {{ cond (isset . "sidecolor") .sidecolor "white" }}">{{ .sideline }}</h3>
+  </div>
+  {{ end }}  
 </section>
