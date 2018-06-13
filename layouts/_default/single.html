@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="relative mw9 ph6 pv4 mb5 center">
+  {{ if isset .Params "sideline" }}
+    {{ partial "sideline" (dict "sideline" .Params.sideline) }}
+  {{ end }}
+  <article class="mv0">
+    <div class="content measure mb5">
+      {{ .Content }}
+    </div>
+  </article>
+</section>
+
+{{ end }}
