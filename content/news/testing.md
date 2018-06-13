@@ -1,7 +1,7 @@
 ---
 title: '<span class="black-10">A News Item</span>'
 date: "2018-06-01"
-subtitle: '<span class="mh4 dark-pink">Dark &amp; dramatic to light &amp; airy.<span class="fw7">Bold colors</span> to classic black &amp; white.</span>'
+subtitle: '<span class="dark-pink">Dark &amp; dramatic to light &amp; airy.<span class="fw7"><br>Bold colors</span> to classic black &amp; white.</span>'
 sideline: 'One slick setup'
 sidecolor: 'dark-pink'
 image: "/images/099A2370.jpg"

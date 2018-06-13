@@ -2,7 +2,7 @@
   <h2 class="absolute mv0 f-super fw9 lh-solid white-30 tc ttu">{{ .title | safeHTML }}</h2>
   <div class="relative tc">
     {{ if isset . "subtitle" }}
-    <h2 class="mv0 mh2 mh0-ns f1 f-subheadline-ns fw3 lh-title white tc">{{ .subtitle | safeHTML }}</h2>
+    <h2 class="mv0 mh2 mh4-ns f1 f-subheadline-ns fw3 lh-title white tc">{{ .subtitle | safeHTML }}</h2>
     {{ end }}
     <a href="{{ cond (isset . "bnlink") .bnlink "mailto:info@cdox.cc" }}" class="dib mt4 link w-auto-ns bg-transparent {{ cond (isset . "bcolor") .bcolor "white" }} f5 pv2 pv3-ns ph4 ba {{ cond (isset . "bcolor")   (printf "b--%s" .bcolor) "b--white"}} dim ttu">{{ .button }}</a>
   </div>
