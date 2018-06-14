@@ -15,7 +15,7 @@
       {{ .Content }}
     </div>
   </article>
-  <aside class="w-100 w-25-ns mb4 mb0-ns lh-solid tr">
+  <aside class="w-100 w-30-ns mb4 mb0-ns lh-solid tr">
     <time class="f-subheadline fw3 tr"><span class="f2">{{ dateFormat "2006" .Date }}</span><br>{{ dateFormat "01" .Date }}<span class="fw7">{{ dateFormat "02" .Date }}</span></time>
     {{ with .Params }}
     {{ partial "slab-stat" . }}
