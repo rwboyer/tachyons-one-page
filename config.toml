@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "Canned Ox Visuals"
 
 Paginate = 5
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
