@@ -1,5 +1,5 @@
 <section class="flex relative overflow-hidden items-center justify-center mw9 vh-100 center {{ cond (isset . "bg") .bg "bg-center" }} cover" style="background-image: url('{{.img}}')">
-  <h2 class="absolute mv0 f-super fw9 lh-solid white-30 tc ttu">{{ .title | safeHTML }}</h2>
+  <h2 class="absolute mv0 f-headline f-super-ns fw9 lh-solid white-30 tc ttu">{{ .title | safeHTML }}</h2>
   <div class="relative tc">
     {{ if isset . "subtitle" }}
     <h2 class="mv0 mh2 mh4-ns f1 f-subheadline-ns fw3 lh-title white tc">{{ .subtitle | safeHTML }}</h2>

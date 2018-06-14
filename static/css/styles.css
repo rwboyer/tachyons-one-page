@@ -20,6 +20,12 @@
   font-size: 14rem;
 }
 
+@media screen and (min-width: 48em){
+  .f-super-ns{
+    font-size: 14rem;
+  }
+}
+
 .f-xsuper{
   font-size: 40rem;
 }
