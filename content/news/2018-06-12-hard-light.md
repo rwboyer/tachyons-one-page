@@ -7,6 +7,13 @@ sidecolor: "white"
 image: "/images/099A2471.jpg"
 bcolor: "dark-red"
 background: 'bg-top'
+name: "Jehanne"
+camera: "Canon 5DsR"
+lens: "24-105 f/4 L"
+aperture: "f/8"
+focal: "85mm"
+lighting: "Profoto"
+heads: "3"
 ---
 Same *stuff* different day. Same church different pew. It's easy to be lazy, just do the same thing we always do. No paying attention required. So, how shall we light this thing infront of the camera today? I know, we'll use a big soft box, for big soft light. Same ol' same ol'. What's wrong with soft? What's wrong with soft **and** bright. That always works &mdash; right?
 
