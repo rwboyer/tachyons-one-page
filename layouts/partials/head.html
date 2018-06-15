@@ -4,7 +4,11 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Canned Ox Visuals</title>
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title | plainify }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+
+  {{ partial "site-meta" . }}
+  {{ partial "open-graph" . }}
+  {{ partial "twitter-card" . }}
 
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/tachyons-skins-pseudo@1.0.4/css/tachyons-skins-pseudo.min.css" />
