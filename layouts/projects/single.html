@@ -40,5 +40,18 @@
   </aside>
   </div>
 </section>
+<section class="dn fixed top-0 left-0 bottom-0 right-0">
+  <div class="galleria">
+    {{ range .Params.slides }}
+    <img src="{{.}}">
+    {{ end }}
+  </div>  
+<script>
+  (function () {
+    Galleria.loadTheme('/js/galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+  }());
+</script>
+</section>
 
 {{ end }}
