@@ -21,7 +21,7 @@
   {{ if isset .Params "sideline" }}
     {{ partial "sideline" (dict "sideline" .Params.sideline (cond (isset .Params "sidecolor") "sidecolor" "") .Params.sidecolor) }}
   {{ end }}
-  <div class="flex flex-wrap-reverse justify-between">
+  <div class="flex flex-wrap-reverse justify-between {{with .Params.textcolor}}{{.}}{{end}}">
   <article class="mv0 w-100 w-70-ns">
     <header class="lh-title">
       <div class="vh-100 w-100"></div>
@@ -43,7 +43,7 @@
 <section class="bg-black-50">
   <div class="cf mw8 pv4 ph2 ph0-ns center">
     {{ range .Params.slides }}
-    <a href="{{.}}" class="fl gallery w-20 w-10-ns dib pa2" >
+    <a href="{{.}}" class="fl gallery w-33 w-10-ns dib pa2" >
         <div class="aspect-ratio--1x1 cover" style="background:url({{.}}) center;">
         </div>
     </a>
