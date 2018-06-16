@@ -23,6 +23,12 @@ slides:
   - "/images/099A1028.jpg"
   - "/images/099A0986.jpg"
 ---
-A personal project to explore presenting a line of budget fashion footwear. I'm sure everyone would love to have a closest full of Jimmy Choo or Christian Louboutin but that's not all there is to look great. Jessica Simpson's line of shoes can be a little hit or miss but their styles change and when on the mark they look great. What's more is they can be every bit as flattering and change personality depending on the rest of the ensemble.
+What's old is new again. That's always the story in fashion. So what's new again in the world of plastic fashion? London Fashion Week show cased a bunch of *new* pieces made from recycled plastic. 
+
+Yep, that's the hook this time around. Everything's gotta have a social message, now if only what I saw had the same attention to detal, creativity, and pure sexiness of the last time plasic was **the thing**. One can only hope, I'm fine with the social message, I just want some substance along with it in terms of design, creativity, and above all style.
+
+I have to be fair, I did see one or two pieces that were absolutely amazing but they were definitely from the usual suspects and appeared to be recyled (intended) rehashes of amazing designs they put out what could be considered ages ago. I'm probably a bit on the pragmatic side of this social message trend. In an of itself it's not going to put any sort of dent in any environmental endeavor. Then again one could argue that extremely over-used *"awareness"* thing. Um&hellip; right, if only there were as many people actually doing anything and less people about the awareness part.
+
+If I remember correctly it was Versace in 1994 or 1995 that really hit the mark with plastic as the primary material that year. Truly inspired with the *Techno Glamour* collection. That pretty much set off some amazing designs from just about all the big and the smaller fashion houses for the next decade in including at least a few pieces in plastic. A very on-again/off-again thing throughout the late '90's until the early 2000's.
 
 
