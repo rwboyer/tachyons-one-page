@@ -15,6 +15,7 @@ focal: "45mm"
 lighting: "Profoto"
 heads: "1"
 notes: 'A simple setup using the tiny Profoto B2 head and pack and the OCF beauty dish as far away as it would go in such a small space.'
+layout: test
 ---
 >I have always avoided photographing in the studio. A woman does not spend her life sitting or standing in front of a seamless white paper background. Although it makes my life more complicated, I prefer to take my camera out into the street... and places that are out of bounds for photographers have always had a special attraction for me.<cite>Helmut Newton</cite>
 

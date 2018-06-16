@@ -1,6 +1,5 @@
 {{ define "header" }}
   {{ partial "nav" . }}
-  {{ partial "hero" . }}
 {{ end }}
 
 {{ define "main" }}
@@ -14,13 +13,38 @@
   </div>  
 </div>
 
+<section id="holder" class="relative">
+<div id="maximage" class="flex relative overflow-hidden items-center justify-center vh-100 center">
+  <div class="">
+    <img class="" src="/images/099A0912.jpg">
+    <div class="">
+      <p class="">Just Testing</p>
+    </div>
+  </div>
+  <img src="/images/099A6920.jpg">
+  <img src="/images/DSC_4659.jpg">
+  <img src="/images/DSCF1403.jpg">
+  <img src="/images/099A0940.jpg">
+</div>
+</section>
+
+<script type="text/javascript" charset="utf-8">
+  $(function () {
+    $('#maximage').maximage();
+  });
+</script>
+
 <div class="flex relative overflow-hidden items-center justify-center mw9 vh-100 center bg-near-black">
   <h3 class="absolute mv0 f-super fw9 lh-solid black tc ttu">Get In<br>Touch</h2>
   <h2 class="absolute mv0 f-subheadline fw3 lh-title white tc">We would love to hear from<br>and get to know <span class="fw7 dark-green">your project.</span></h2>
   <div class="sideline absolute top-200 left-0 inline-flex items-center">
     <span class="bar dib mr2 bg-dark-green"></span>
     <h3 class="mv3 f5 fw5 tracked-mega dark-green ttu">A More Rewarding Engineering Process</h3>
-  </div>  
+  </div>
+  <video autoplay loop id="video-background" muted plays-inline>
+    <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761"
+      type="video/mp4">
+  </video>
 </div>
 
 <div class="relative pv6 overflow-hidden flex-wrap justify-center mw9 vh-100 center">
