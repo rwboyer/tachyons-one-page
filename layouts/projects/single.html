@@ -17,7 +17,7 @@
   });
 </script>
 
-<section class="relative mw9 ph4 ph5-ns pv4-ns mb5 center">
+<section class="relative mw9 ph4 ph5-ns pv4-ns center">
   {{ if isset .Params "sideline" }}
     {{ partial "sideline" (dict "sideline" .Params.sideline (cond (isset .Params "sidecolor") "sidecolor" "") .Params.sidecolor) }}
   {{ end }}
