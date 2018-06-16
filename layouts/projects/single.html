@@ -40,18 +40,31 @@
   </aside>
   </div>
 </section>
-<section class="dn fixed top-0 left-0 bottom-0 right-0">
-  <div class="galleria">
+<section class="bg-black-50">
+  <div class="cf mw8 pv4 center">
     {{ range .Params.slides }}
-    <img src="{{.}}">
+    <a href="{{.}}" class="fl gallery w-10 dib pa2" >
+        <div class="aspect-ratio--1x1 cover" style="background:url({{.}}) center;">
+        </div>
+    </a>
     {{ end }}
   </div>  
-<script>
-  (function () {
-    Galleria.loadTheme('/js/galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('.galleria');
-  }());
-</script>
+  <script>
+    $(function() {
+      $('a.gallery').featherlightGallery({
+        previousIcon: '&#9664;',     /* Code that is used as previous icon */
+        nextIcon: '&#9654;',         /* Code that is used as next icon */
+        galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
+        galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
+      });
+    });
+  </script>
 </section>
 
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer-black" . }}
+	<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 {{ end }}
