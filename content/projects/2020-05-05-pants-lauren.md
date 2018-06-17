@@ -1,12 +1,12 @@
 ---
 title: '<span class="white-30">Plastic</span>'
 date: "2018-05-05"
-subtitle: '<span class="white">Minimalistic approach to highlight the <span class="fw7">plastic jeans</span></span>'
+subtitle: '<span class="white">Minimalistic approach to highlight <span class="fw7">plastic jeans</span></span>'
 sideline: 'Fashion Editorial | Plastic Pants'
 sidecolor: 'white'
 image: "/images/099A1055.jpg"
 bcolor: "white"
-background: 'bg-bottom'
+background: 'bg-center'
 textcolor: white
 studio:
   client: "Personal Project"
