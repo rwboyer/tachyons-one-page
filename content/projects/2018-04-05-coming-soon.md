@@ -8,6 +8,7 @@ sidecolor: 'blue'
 bcolor: "blue"
 background: 'bg-center'
 textcolor: blue
+readerbg: bg-white-40
 studio:
   client: "Personal Project"
   model: "Various"

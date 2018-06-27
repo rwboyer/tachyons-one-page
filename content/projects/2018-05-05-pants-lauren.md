@@ -8,6 +8,7 @@ image: "/images/099A1055.jpg"
 bcolor: "white"
 background: 'bg-center'
 textcolor: white
+readerbg: bg-black-20
 studio:
   client: "Personal Project"
   model: "Lauren"

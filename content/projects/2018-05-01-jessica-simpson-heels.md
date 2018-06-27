@@ -7,6 +7,7 @@ sidecolor: 'dark-pink'
 image: "/images/099A0912.jpg"
 bcolor: "dark-pink"
 background: 'bg-top'
+readerbg: bg-white-40
 studio:
   client: "Personal Project"
   model: "Melanie"
