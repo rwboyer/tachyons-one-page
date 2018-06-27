@@ -16,6 +16,8 @@ stats:
   lighting: "Profoto"
   heads: "1"
   notes: 'I finally settled on my one larger light modifier for my one light travel kit. The Profoto Umbrella Deep L Silver. Here I used it without diffusion for a very crisp, focused look. With a diffion panel it looks a lot like an octabank.'
+aliases:
+  - /news/2019-06-13-black-and-white/
 ---
 Here's a secret. I'd probably shoot black and white all the time if people let me. I'd go so far as to say it's a different medium than color photographs. If forced to choose only one medium I'd most likely choose Black &amp; White. Here's another secret&hellip; I still load a roll of black and white film now and again. There's just something about the look of black and white negative film that while I can get close with digital, it's just not quite the same.
 

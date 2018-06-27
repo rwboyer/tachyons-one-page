@@ -16,6 +16,8 @@ stats:
   lighting: "Profoto"
   heads: "1"
   notes: '4ft Profoto RFi Octabank with white reflector fill'
+aliases:
+  - /news/2023-06-20-point-of-view/
 ---
 
 There are a lot of moving parts involved in photography. Many are focused on all the bits anb bobs of technology. Cameras, lights, lenses, lighting modifiers, post processing tools, on and on. All of those things are merely there to serve the subject of the photograph. When it comes down to it, especially when people are the subjects in your photographs, paying attention to light, eliciting a mood from the person/people in front of the camera, choosing a point of view, and hitting the shutter release at the right moment are really the important elements. The rest of it is pererferal.
