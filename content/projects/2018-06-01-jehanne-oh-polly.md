@@ -26,6 +26,8 @@ slides:
   - "/images/099A2388.jpg"
   - "/images/099A2390.jpg"
   - "/images/099A2391.jpg"
+aliases:
+  - /projects/2018-06-01-jehanne-oh-polly/
 ---
 A quick concept test playing with the notion of **flair** and *flare* using one of many slick but reasonably priced pieces from UK fashion house *Oh Polly!*. 
 

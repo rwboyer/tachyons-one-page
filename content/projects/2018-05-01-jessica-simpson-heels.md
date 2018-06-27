@@ -21,6 +21,8 @@ slides:
   - "/images/099A0912.jpg"
   - "/images/099A0940.jpg"
   - "/images/099A0941.jpg"
+aliases:
+  - /projects/2019-05-01-jessica-simpson-heels/
 ---
 A personal project to explore presenting a line of budget fashion footwear. I'm sure everyone would love to have a closest full of Jimmy Choo or Christian Louboutin but that's not all there is to look great. Jessica Simpson's line of shoes can be a little hit or miss but their styles change and when on the mark they look great. What's more is they can be every bit as flattering and change personality depending on the rest of the ensemble.
 

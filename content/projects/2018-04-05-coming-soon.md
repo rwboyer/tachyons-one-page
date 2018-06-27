@@ -28,6 +28,8 @@ slides:
   - "/images/DSCF6744.jpg"
   - "/images/DSCF6761.jpg"
   - "/images/DSCF6770.jpg"
+aliases:
+  - /projects/2021-04-05-coming-soon/
 ---
 I've recently purged previous work to get started on something new. Having taken a break for quite a while persuing other more marketing and consulting endeavors. I thought it was time for a purge and a back to basics, minimalistic approach without any over produced, over processed material. While taking a break from image making, I did have the opportunity to play with a few personal projects on the fly.
 

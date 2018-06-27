@@ -22,6 +22,8 @@ slides:
   - "/images/099A1050.jpg"
   - "/images/099A1028.jpg"
   - "/images/099A0986.jpg"
+aliases:
+ - /projects/2020-05-05-pants-lauren/
 ---
 What's old is new again. That's always the story in fashion. So what's new again in the world of plastic fashion? London Fashion Week show cased a bunch of *new* pieces made from recycled plastic. 
 
