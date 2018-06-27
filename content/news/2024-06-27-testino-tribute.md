@@ -1,7 +1,7 @@
 ---
 title: '<span class="black-20">Testino<br>Tribute</span>'
 date: "2018-06-27"
-subtitle: '<span class="dark-pink">Appriciating the value of <span class="fw7">simplicity.</span></span>'
+subtitle: '<span class="dark-pink">Appreciating the value of <span class="fw7">simplicity.</span></span>'
 sideline: 'Beauty Portrait | Simplicity'
 sidecolor: "dark-pink"
 image: "/images/099A8003.jpg"
