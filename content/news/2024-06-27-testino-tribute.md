@@ -7,14 +7,15 @@ sidecolor: "dark-pink"
 image: "/images/099A8003.jpg"
 bcolor: "dark-pink"
 background: 'bg-top'
-name: "Lauren"
-camera: "Canon 5DsR"
-lens: "50mm f/1.2L"
-aperture: "f/8"
-focal: "50mm"
-lighting: "Profoto"
-heads: "1"
-notes: '4ft Profoto RFi Octabank with white reflector fill. No retouch, black and white conversion is as close as I can get to Ilford XP2 Super with digital, a favorite of mine with portraits.'
+stats:
+  name: "Lauren"
+  camera: "Canon 5DsR"
+  lens: "50mm f/1.2L"
+  aperture: "f/8"
+  focal: "50mm"
+  lighting: "Profoto"
+  heads: "1"
+  notes: '4ft Profoto RFi Octabank with white reflector fill. No retouch, black and white conversion is as close as I can get to Ilford XP2 Super with digital, a favorite of mine with portraits.'
 ---
 
 A long **long** time ago in my 20's I copied photographs made by some of my favorite photographers. I was obsessive in terms of reproducing them exactly down to minute details, point of view, feel, expression. I was also obsessive in copying almost every photograph I'd seen made by them. I didn't do this to pretend they were *mine*. This was how I learned. I needed to figure out all of the bits and pieces, the visual ingredients that made those photographs that spoke to me.
