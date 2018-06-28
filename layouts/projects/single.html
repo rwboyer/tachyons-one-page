@@ -11,7 +11,14 @@
 <script type="text/javascript" charset="utf-8">
   $(function () {
     $('#maximage').maximage({
-      backgroundSize: 'bg-top',
+      cycleOptions: {
+            speed: 800,
+            timeout: 2000
+        },
+      onFirstImageLoaded: function(){
+            jQuery('#cycle-loader').hide();
+            jQuery('#maximage').fadeIn('fast');
+        },
       fillElement: '#holder'
     });
   });
