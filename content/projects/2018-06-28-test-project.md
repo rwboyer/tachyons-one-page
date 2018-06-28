@@ -1,5 +1,5 @@
 ---
-title: <span class="bg-black-20">Test Project</span>
+title: <span class="black-20">Test Project</span>
 subtitle: >-
   <span class="blue">Having fun with pictures is <span
   class="fw7">fun</span>?</span>
