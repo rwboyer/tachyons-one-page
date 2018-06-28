@@ -57,7 +57,7 @@ collections:
           {label: "Lighting", name: "lighting", widget: string},
           {label: "Heads", name: "heads", widget: string},
           {label: "Notes", name: "notes", widget: "text"}]}
-      - {label: "Gallery", name: "slides", widget: "list", fields: [
-          {label: "Image", widget: image}]}
+      - {label: "Gallery", name: "slides", widget: "list", field:
+          {label: "Image", name: "image", widget: image}}
       - {label: "Body", name: "body", widget: "markdown"}
 
