@@ -44,7 +44,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Background Pos", name: "background", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Button Color", name: "bcolor", widget: "string", default: "white"}
       - {label: "Text Color", name: "textcolor", widget: "string", default: "white"}
       - {label: "Overlay Color", name: "readerbg", widget: "string", default: "bg-black-30"}
