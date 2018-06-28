@@ -10,7 +10,7 @@ image: /images/099A7909.jpg
 background: bg-top
 bcolor: blue
 textcolor: black
-readerbg: bg-black-30
+readerbg: bg-white-20
 studio:
   client: Personal Project
   heads: '1'
