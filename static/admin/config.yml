@@ -58,6 +58,6 @@ collections:
           {label: "Heads", name: "heads", widget: string},
           {label: "Notes", name: "notes", widget: "text"}]}
       - {label: "Gallery", name: "slides", widget: "list", fields: [
-          {label: "Image", widget: image}]},
+          {label: "Image", widget: image}]}
       - {label: "Body", name: "body", widget: "markdown"}
 
