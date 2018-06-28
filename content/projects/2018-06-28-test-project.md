@@ -9,7 +9,7 @@ date: '2018-06-28T17:05:35-04:00'
 image: /images/099A7909.jpg
 background: bg-top
 bcolor: blue
-textcolor: white
+textcolor: black
 readerbg: bg-black-30
 studio:
   client: Personal Project
