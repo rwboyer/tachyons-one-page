@@ -1,13 +1,5 @@
 {{ define "main" }}
 
-<section id="holder" class="relative">
-  <div id="maximage" class="flex relative w-50 overflow-hidden items-center justify-center vh-100 center">
-    {{ range .Params.slides }}
-    <img src="{{.}}" class="bg-top">
-    {{ end }}
-  </div>
-</section>
-
 <script type="text/javascript" charset="utf-8">
   $(function () {
     $('#maximage').maximage({
@@ -23,6 +15,14 @@
     });
   });
 </script>
+
+<section id="holder" class="relative">
+  <div id="maximage" class="flex relative w-50 overflow-hidden items-center justify-center vh-100 center">
+    {{ range .Params.slides }}
+    <img src="{{.}}" class="bg-top">
+    {{ end }}
+  </div>
+</section>
 
 <div id="reader" class="o-0 fixed w-100 vh-100 top-0 left-0 bottom-0 right-0 {{ .Params.readerbg }}"></div>
 
