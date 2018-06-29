@@ -30,4 +30,6 @@ I have to say that the Canon 50mm 1.2 L has grown to be my favorite. It's sort o
 
 The super wide aperture also allows complete obliteration of the background in a pleasing way if used very close to the subject but also produces a nice inclusion of subdued context if you back of just a bit. Not too much blur which can look a bit distracting as an effect with longer lenses. All of it's faults mentioned by the lens' detractors are true. It's not quite as *sharp* wide open as a few modern desings that are the size of a bus, it has a bit of focus shift as it's stopped down that's difficult to use at certain apertures, etc. Overall if one puts the time in to get to know how and when to use it instead of fighting against some of it's weaknesses it delivers just a little bit of magic that I find lacking in many modern optics. Give me a tool that can produce a lot of different looks when called upon rather than just pedestrian *sharpness* any day of the week.
 
+![Nicole Canon 50mm 1.2 L](/images/099A7501.jpg)
+
 Sorry for the brief forey into photo geek-dom. I'll return to the usual fare in short order.
