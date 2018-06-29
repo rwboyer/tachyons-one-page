@@ -3,9 +3,9 @@
     new WOW().init();
   </script>
 
-  <section id="home" class="relative vh-100 w-100 pa4 bg-top cover" style="background-image: url('/images/hero.jpg')">
+  <section id="home" class="relative vh-100 w-100 pa4 bg-top cover" style="background-image: url('{{ .Params.image }}')">
     <div class="relative flex flex-wrap items-center justify-center h-100">
-      <h1 class="ma0 dark-red f-subheadline f-headline-l fw9 tracked tracked-mega-ns lh-solid ttu tc">Canned Ox Visuals</h1>
+      <h1 class="ma0 dark-red f-subheadline f-headline-l fw9 tracked tracked-mega-ns lh-solid ttu tc">{{ .Title }}</h1>
 
         <div class="mb4 mb0-ns w-100 tc">
           <p class="dark-red f3 f2-l fw7 mb2 mv3 ttu">
