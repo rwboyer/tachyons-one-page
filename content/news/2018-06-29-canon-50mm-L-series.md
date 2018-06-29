@@ -32,4 +32,4 @@ The super wide aperture also allows complete obliteration of the background in a
 
 ![Nicole Canon 50mm 1.2 L](/images/099A7501.jpg)
 
-Sorry for the brief forey into photo geek-dom. I'll return to the usual fare in short order.
+Sorry for the brief foray into photo geek-dom. I'll return to the usual fare in short order.
