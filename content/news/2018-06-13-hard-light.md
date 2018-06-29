@@ -1,6 +1,6 @@
 ---
 title: '<span class="white-50">Crisp</span>'
-date: "2018-06-12"
+date: "2018-06-13"
 subtitle: '<span class="dark-red">Take a chance. <span class="fw7">Everything</span> is not better soft.</span>'
 sideline: 'Hard Light | Crisp Detail'
 sidecolor: "white"
@@ -16,6 +16,8 @@ stats:
   lighting: "Profoto"
   heads: "3"
   Notes: 'Profoto D2 in a magnum reflector with grid spot as the main light with no fill. Profoto D2 from the back as separation kicker. Profoto B2 providing the background gradient.'
+aliases: 
+  - /news/2018-06-12-hard-light/
 ---
 Same *stuff* different day. Same church different pew. It's easy to be lazy, just do the same thing we always do. No paying attention required. So, how shall we light this thing infront of the camera today? I know, we'll use a big soft box, for big soft light. Same ol' same ol'. What's wrong with soft? What's wrong with soft **and** bright. That always works &mdash; right?
 

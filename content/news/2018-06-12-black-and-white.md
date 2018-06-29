@@ -1,6 +1,6 @@
 ---
 title: '<span class="white-50">Black<br>x<br>White</span>'
-date: "2018-06-13"
+date: "2018-06-12"
 subtitle: '<span class="white">Not just for <span class="fw7">portraits.</span></span>'
 sideline: 'Black + White | Always Classic'
 sidecolor: "dark-pink"
