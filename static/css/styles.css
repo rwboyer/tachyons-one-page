@@ -47,6 +47,20 @@
   margin-bottom: 2rem;
 }
 
+.content a{
+  text-decoration: none;
+  color: gray;
+}
+
+.content a:hover{
+  color: black;
+}
+
+.content a:visited{
+  text-decoration: none;
+  color: gray;
+}
+
 .content blockquote{
   font-size: 1rem;
   font-style: italic;
