@@ -42,6 +42,26 @@
   visibility: visible;
 }
 
+.flex-shrink-0{
+  flex-shrink: 0;
+}
+
+.mxhi-75{
+  max-height: 75%;
+}
+
+.mxhi-100{
+  max-height: 100%;
+}
+
+.vcenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* CMS stuff */
+
 .content p{
   margin-top: 0;
   margin-bottom: 2rem;
