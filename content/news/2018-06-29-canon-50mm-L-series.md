@@ -16,8 +16,6 @@ stats:
   lighting: "Ambient"
   heads: "n/a"
   notes: 'Available darkness during a raging thunderstorm. Even at f/1.2 ISO needed pushed up to 1600 and shutter speeds were a bit dicey'
-aliases: 
-  - /news/2018-06-28-canon-50mm-l-series/
 ---
 
 *Normal focal length lenses* are definitely my desert island must have piece of kit. The angle of view vs. perspective doesn't draw attention to itself. I can comfortably use just one lens to make everything from full lengths to extreme close-ups and not think twice about the choice. When it comes to 50mm lenses on full-frame (35mm sized film) bodies, I have somewhat of an addiction. I have dozens of 50mm lenses, I have three dedicated Canon auto-focus versions, one dedicated Canon Zeiss, and a myriad of lenses that can be adapted &mdash; that's just for Canon. 
