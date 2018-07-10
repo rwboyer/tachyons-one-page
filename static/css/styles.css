@@ -2,6 +2,20 @@
   font-family: 'lato', sans-serif;
 }
 
+/* Colors */
+
+.p369c{
+  color: #ebff00;
+}
+
+.bg-p369c{
+  background-color: #ebff00;
+}
+
+.cc2{
+  column-count: 2;
+}
+
 .sideline{
   transform: translateX(-100%) rotate(-90deg);
   transform-origin: top right;
@@ -28,6 +42,10 @@
 
 .f-xsuper{
   font-size: 40rem;
+}
+
+.vh-third{
+  height: 33.3vh;
 }
 
 #reader{
