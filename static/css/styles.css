@@ -60,6 +60,10 @@
   transform: translateY(-50%);
 }
 
+.bg-fixed{
+  background-attachment: fixed;
+}
+
 /* CMS stuff */
 
 .content p{
