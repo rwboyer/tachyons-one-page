@@ -34,7 +34,7 @@ Take the above photos. The first one was obviously made with a different lightin
 
 ![Heather towel series](/images/099A7760.jpg)
 
-Above is the same lighting setup but instead with the Ilford XP2 Super treatment of far lower contrast as a more head to head comparison. They both have their merits. One could go either way with the treatment. Below is another using the higher contrast Ilford PanF+ rendtion. That's the blessing and the curse of digital in a nutshell. One one hand you have infinite choice after the fact. On the other hand sometimes it's far more simple to have some choices baked in when you shot it. Sure after the film was processed you could fiddle around with print contrast, dodging and burning, etc but the variety was far more limited. I think I'll take the simple road and flip a coin to decide.
+Above is the same lighting setup but instead with the Ilford XP2 Super treatment of far lower contrast as a more head to head comparison. They both have their merits. One could go either way with the treatment. Below is another using the higher contrast Ilford PanF+ rendtion. That's the blessing and the curse of digital in a nutshell. On one hand you have infinite choice after the fact. On the other hand sometimes it's far more simple to have some choices baked in when you shot it. Sure after the film was processed you could fiddle around with print contrast, dodging and burning, etc but the variety was far more limited. I think I'll take the simple road and flip a coin to decide.
 
 ![Heather towel series](/images/099A7758.jpg)
 
