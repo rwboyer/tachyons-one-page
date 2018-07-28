@@ -66,6 +66,14 @@
   max-height: 100%;
 }
 
+.h0{
+  height: 0;
+}
+
+.trans-all{
+  transition: all .5s linear;
+}
+
 .vcenter{
   position: relative;
   top: 50%;

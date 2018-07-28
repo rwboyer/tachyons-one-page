@@ -3,7 +3,7 @@ title: '<span class="black-50">Stories</span>'
 subtitle: '<span class="dark-red">Mood, emotion, wardrobe &amp; <span class="fw7">moment.</span></span>'
 sideline: 'Editorial | Leather Jacket x Heels'
 sidecolor: "hot-pink"
-image: "/images/DSC_7768.jpg"
+image: "/images/099A8222.jpg"
 bcolor: "dark-red"
 background: 'bg-top'
 contentbg: bg-hot-pink
