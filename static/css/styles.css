@@ -2,6 +2,18 @@
   font-family: 'lato', sans-serif;
 }
 
+.rb {
+  font-family: 'Roboto', sans-serif;
+}
+
+.rbc{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rbs{
+  font-family: 'Roboto Slab', serif;
+}
+
 .sideline{
   transform: translateX(-100%) rotate(-90deg);
   transform-origin: top right;
@@ -60,8 +72,24 @@
   transform: translateY(-50%);
 }
 
+@media screen and (min-width: 48em){
+  .vcenter-ns{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);  
+  }
+}
+
 .bg-fixed{
   background-attachment: fixed;
+}
+
+.bq::before{
+  content: open-quote;
+}
+
+.bq::after{
+  content: close-quote;
 }
 
 /* CMS stuff */
