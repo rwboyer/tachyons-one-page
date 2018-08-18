@@ -74,6 +74,12 @@
   transition: all .5s linear;
 }
 
+.acenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .vcenter{
   position: relative;
   top: 50%;
@@ -155,7 +161,7 @@
 /* overlay menu stuff */
 
 #menu-overlay-switch {
-  /*display: none;*/
+  display: none;
 }
 
 #menu-overlay-switch:checked~#menu-overlay {
