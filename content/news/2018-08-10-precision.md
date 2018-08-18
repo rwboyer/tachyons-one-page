@@ -5,7 +5,7 @@ subtitle: '<span class="white">Testing the new <span class="fw7">Profoto</span> 
 sideline: 'Not So Still Life | Gear'
 sidecolor: "blue"
 image: "/images/DSCF0548.jpg"
-bcolor: "blue"
+bcolor: "white"
 background: 'bg-bottom'
 stats:
   name: "Profoto Freeze"
