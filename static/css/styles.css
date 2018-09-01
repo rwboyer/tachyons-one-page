@@ -14,6 +14,10 @@
   font-family: 'Roboto Slab', serif;
 }
 
+.dark-pink-trans{
+  color: rgba(213, 0, 143, 0.1)
+}
+
 .sideline{
   transform: translateX(-100%) rotate(-90deg);
   transform-origin: top right;

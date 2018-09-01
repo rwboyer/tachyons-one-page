@@ -3,27 +3,18 @@
     new WOW().init();
   </script>
 
-  <section id="home" class="relative vh-100 w-100 pa4 bg-top bg-fixed cover" style="background-image: url('{{ .Params.image }}')">
-    <div class="relative flex flex-wrap items-center justify-center h-100">
-      <h1 class="ma0 dark-red f-subheadline f-headline-l fw9 tracked tracked-mega-ns lh-solid ttu tc">{{ .Title }}</h1>
-
-        <div class="mb4 mb0-ns w-100 tc">
-          <p class="dark-red f3 f2-l fw7 mb2 mv3 ttu">
-            Let's Work Together
-          </p>
-          <form id="news" class="db w-100 news">
-            <input placeholder="Email Address" name="email" class="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box">
-            <input id="subscribe" type="submit" value="Subscribe" class="input-reset w-100 w-auto-ns bg-transparent dark-red f5 pv2 pv3-ns ph4 ba b--dark-red dim ttu">
-            <div id="spinner" class="spinner v-btm mb1 dn">
-              <div class="rect1"></div>
-              <div class="rect2"></div>
-              <div class="rect3"></div>
-              <div class="rect4"></div>
-              <div class="rect5"></div>
-            </div>
-          </form>
-        </div>
-      
+  <section id="home" class="relative flex items-center justify-center vh-100 w-100 bg-top bg-fixed cover lh-solid" style="background-image: url('{{ .Params.image }}')">
+    <div class="absolute overflow-x-hidden">
+      <h1 class="f-headline f-super-ns fw7 black-10 rbc tracked-tight ttu tc">Canned Ox</h1>
+    </div>
+    <div class="absolute pl3 pl0-ns">
+      <h3 class="w-100 mt0 mb3">What we do.</h3>
+      <h2 class="w-100 mv0 f2 f-subheadline-ns rbc fw7 ttu">Photography,</h2>
+      <h2 class="w-100 mv0 f2 f-subheadline-ns rbc fw7 ttu black-80">Creative Direction,</h2>
+      <h2 class="w-100 mv0 f2 f-subheadline-ns rbc fw7 ttu black-60">Design,</h2>
+      <h2 class="w-100 mv0 f2 f-subheadline-ns rbc fw7 ttu black-50">Marketing,</h2>
+      <h2 class="w-100 mv0 f2 f-subheadline-ns rbc fw7 ttu black-40">Education&hellip;</h2>
+      <span class="db w4 mt3 bb bw2 b--dark-pink"></span>
     </div>
   </section>
 
@@ -120,12 +111,12 @@
   <section class="flex flex-wrap relative overflow-hidden items-center justify-center vh-100 center bg-black-90">
     <h2 class="absolute mv0 f-headline f-super-ns fw9 lh-solid black tc ttu">Get In<br>Touch</h2>
     <div class="relative tc">
-      <h2 class="mv0 mh2 mh0-ns f1 f-subheadline-ns fw3 lh-title white tc">Have an idea? Reach out <br>and let's <span class="fw7 dark-red">work together.</span></h2>
-      <a href="mailto:info@cdox.cc" class="dib mt4 link w-auto-ns bg-transparent dark-red f5 pv2 pv3-ns ph4 ba b--dark-red dim ttu">Let's Work Together</a>
+      <h2 class="mv0 mh2 mh0-ns f1 f-subheadline-ns fw3 lh-title white tc">Have an idea? Reach out <br>and let's <span class="fw7 dark-pink">work together.</span></h2>
+      <a href="mailto:info@cdox.cc" class="dib mt4 link w-auto-ns bg-transparent dark-pink f5 pv2 pv3-ns ph4 ba b--dark-pink dim ttu">Let's Work Together</a>
     </div>
     <div class="sideline absolute top-200 left-0 inline-flex items-center">
-      <span class="bar dib mr2 bg-dark-red"></span>
-      <h3 class="mv2 f6 fw5 tracked-mega dark-red ttu nowrap">A More Rewarding Creative Experience</h3>
+      <span class="bar dib mr2 bg-dark-pink"></span>
+      <h3 class="mv2 f6 fw4 tracked-mega dark-pink ttu nowrap">A More Rewarding Creative Experience</h3>
     </div>  
   </section>
   
@@ -211,5 +202,7 @@
   </section>
 
   {{ partial "big-block" (dict "img" "/images/DSC_5782.jpg" "title" "<span class=\"white-50\">Creative Geeks</span>" "subtitle" "<span class=\"dark-red\">We are creative geeks.<br>We love to <span class=\"white fw7\">Play</span><br> and extend concepts.</span>" "sideline" "Fashion | Concept Development" "sidecolor" "blue" "button" "Musings" "bcolor" "dark-red" "bnlink" "/news" "bg" "bg-right") }}
+
+  {{ partial "sticky-footer" . }}
 
 {{ end }}
