@@ -222,7 +222,7 @@
   height: 1px;
 }
 
-#menu-overlay-switch:checked~.page-wrap #menu-overlay-toggle {
+#menu-overlay-switch:checked~#menu-overlay-toggle {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -377,7 +377,7 @@
   height: 1px;
 }
 
-#menu-switch:checked~.page-wrap #menu-toggle {
+#menu-switch:checked~#menu-toggle {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
