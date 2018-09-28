@@ -23,6 +23,15 @@
   transform-origin: top right;
 }
 
+.bg-clip-text{
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+.clip-text{
+  -webkit-text-fill-color: transparent;
+}
+
 .top-200{
   top: 200px
 }

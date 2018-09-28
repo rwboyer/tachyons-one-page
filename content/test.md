@@ -4,6 +4,7 @@ subtitle: '<span class="dark-red">Mood, emotion, wardrobe &amp; <span class="fw7
 sideline: 'Editorial | Leather Jacket x Heels'
 sidecolor: "hot-pink"
 image: "/images/099A0941.jpg"
+clipimage: "/images/099A8537.jpg"
 bcolor: "dark-red"
 background: 'bg-top'
 contentbg: bg-hot-pink

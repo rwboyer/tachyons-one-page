@@ -13,7 +13,9 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quis ab corrupti maiores veniam illum eum animi temporibus fugit libero officia aperiam quae, sed quibusdam omnis, eaque quia. Facilis, dignissimos!</h2>
   </div>
 
-  {{ partial "footer-black" . }}
+  {{ partial "section-clip-text" (dict "bgcolor" "bg-black" "color" "white-70" "clipimage" "/images/099A8537.jpg" "title" "We are Canned Ox.&nbsp;" "text" "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quis ab corrupti maiores veniam illum eum animi temporibus fugit libero officia aperiam quae, sed quibusdam omnis, eaque quia. Facilis, dignissimos!") }}
+
+  {{ partial "footer" . }}
 </section>
 
 {{ end }}
