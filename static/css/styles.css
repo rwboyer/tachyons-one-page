@@ -4,6 +4,7 @@
 
 .rb {
   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .rbc{
@@ -12,6 +13,14 @@
 
 .rbs{
   font-family: 'Roboto Slab', serif;
+}
+
+.mont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.amiko {
+  font-family: 'Amiko', sans-serif;
 }
 
 .dark-pink-trans{
