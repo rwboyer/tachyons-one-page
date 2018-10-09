@@ -11,7 +11,7 @@
   {{ if isset . "sideline" }}
   <div class="dn sideline absolute top-200 left-0 inline-flex-ns items-center nowrap">
     <span class="bar dib mr2 {{ cond (isset . "sidecolor") (printf "bg-%s" .sidecolor) "bg-white" }}"></span> 
-    <h3 class="mv2 f7 f6-ns fw4 tracked-mega ttu {{ cond (isset . "sidecolor") .sidecolor "white" }}">{{ .sideline }}</h3>
+    <h3 class="mv2 f7 fw3 tracked-mega ttu {{ cond (isset . "sidecolor") .sidecolor "white" }}">{{ .sideline }}</h3>
   </div>
   {{ end }}  
 </section>

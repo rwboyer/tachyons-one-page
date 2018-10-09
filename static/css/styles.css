@@ -23,6 +23,10 @@
   transform-origin: top right;
 }
 
+.bg-fixed{
+  background-attachment: fixed;
+}
+
 .bg-clip-text{
   -webkit-background-clip: text;
   color: transparent !important;
@@ -33,6 +37,7 @@
 }
 
 .sticky{
+  position: -webkit-sticky;
   position: sticky;
 }
 
