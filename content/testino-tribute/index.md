@@ -1,5 +1,5 @@
 ---
-title: '<span class="black-50">Stories</span>'
+title: '<span class="black-50">Testino Tribute</span>'
 subtitle: '<span class="dark-red">Mood, emotion, wardrobe &amp; <span class="fw7">moment.</span></span>'
 sideline: 'Editorial | Leather Jacket x Heels'
 sidecolor: "hot-pink"
