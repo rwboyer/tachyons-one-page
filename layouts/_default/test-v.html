@@ -47,6 +47,26 @@
 
   {{ end }}
 
+  <div class="relative vh-100 bg-black"></div>
+
+  {{ with (.Resources.Match "portfolio/*.jpg") }}
+
+  <article class="hscroll-gallery relative bg-white vh-100" style="--total: {{len .}}">
+    <div class="flex items-end">
+      <aside class="pb4 pb6-ns pr4 pr0-ns">
+        <h3 class="mv0 f5 fw4 black-70 tracked ttu">Testino Tribute</h3>
+        <p class="mt4 mb0 mr4 mr0-ns fw3 black-20 measure">A quick session with Heather shows the diversity of expression, gesture, and feel of just one individual over the course of ten or fifteen minutes. Scroll right for a sampling of photographs made. There will be many more to come as the project is expanded.</p>
+      </aside>
+    </div>
+    {{ range . }}
+    <div class="flex justify-end pv4 pv6-ns pr6-l overflow-hidden">
+      <img src="{{.RelPermalink}}" class="h-100 w-auto mw-none">
+    </div>
+    {{ end }}
+  </article>
+
+  {{ end }}
+
 </section>
 
 {{ end }}
