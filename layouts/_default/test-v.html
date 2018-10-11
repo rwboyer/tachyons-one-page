@@ -53,15 +53,16 @@
 
   <article class="hscroll-gallery relative bg-white vh-100" style="--total: {{len .}}">
     <div class="flex items-end">
-      <aside class="pb4 pb6-ns pr4 pr0-ns">
+      <aside class="pb4 pb5-ns pr4 pr0-ns">
         <h3 class="mv0 f5 fw4 black-70 tracked ttu">Testino Tribute</h3>
         <p class="mt4 mb0 mr4 mr0-ns fw3 black-20 measure">A quick session with Heather shows the diversity of expression, gesture, and feel of just one individual over the course of ten or fifteen minutes. Scroll right for a sampling of photographs made. There will be many more to come as the project is expanded.</p>
       </aside>
     </div>
     {{ range . }}
-    <div class="flex justify-end pv4 pv6-ns pr6-l overflow-hidden">
-      <img src="{{.RelPermalink}}" class="h-100 w-auto mw-none">
-    </div>
+    <figure class="flex flex-column justify-end pv4 ma0 pb5-ns pt6-ns  overflow-hidden">
+      <img src="{{.RelPermalink}}" class="db h-100 ofc opl">
+      <figcaption class="db mt3 lh-solid f5 fw4 black-20">A caption</figcaption>
+    </figure>
     {{ end }}
   </article>
 

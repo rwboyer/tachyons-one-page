@@ -120,6 +120,14 @@
   background-attachment: fixed;
 }
 
+.ofc{
+  object-fit: contain;
+}
+
+.opl{
+  object-position: 0% 50%;
+}
+
 .bq::before{
   content: open-quote;
 }
