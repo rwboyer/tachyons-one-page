@@ -20,7 +20,7 @@
   {{ with (.Resources.GetMatch "**/099A7739.jpg") }}
 
   <article class="relative sticky top-0 z-0 center lh-solid overflow-x-hidden">
-    <div id="trigger" class="relative z-999 vh-100 bg-clip-text cover bg-top bg-fixed mh3 mh6-ns tc ttu tracked-tight" style="background-image: url('{{.RelPermalink}}')">
+    <div id="trigger" class="relative z-999 vh-100 bg-clip-text cover bg-top bg-fixed mh3 mh0-ns tc ttu tracked-tight" style="background-image: url('{{.RelPermalink}}')">
       <h2 class="mv0 di white f1 f-super-ns fw9 clip-text">Testino Tribute</h2>
     </div>
   </article>
@@ -55,13 +55,13 @@
     <div class="flex items-end">
       <aside class="pb4 pb5-ns pr4 pr0-ns">
         <h3 class="mv0 f5 fw4 black-70 tracked ttu">Testino Tribute</h3>
-        <p class="mt4 mb0 mr4 mr0-ns fw3 black-20 measure">A quick session with Heather shows the diversity of expression, gesture, and feel of just one individual over the course of ten or fifteen minutes. Scroll right for a sampling of photographs made. There will be many more to come as the project is expanded.</p>
+        <p class="mt4 mb0 mr4 mr0-ns f5 fw3 black-20 measure">A quick session with Heather shows the diversity of expression, gesture, and feel of just one individual over the course of ten or fifteen minutes. Scroll right for a sampling of photographs made. There will be many more to come as the project is expanded.</p>
       </aside>
     </div>
     {{ range . }}
     <figure class="flex flex-column justify-end pv4 ma0 pb5-ns pt6-ns  overflow-hidden">
       <img src="{{.RelPermalink}}" class="db h-100 ofc opl">
-      <figcaption class="db mt3 lh-solid f5 fw4 black-20">&copy; R W Boyer</figcaption>
+      <figcaption class="db mt3 lh-solid f6 fw3 black-20">&copy; R W Boyer</figcaption>
     </figure>
     {{ end }}
   </article>
