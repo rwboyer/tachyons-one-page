@@ -1,6 +1,7 @@
 ---
-title: '<span class="black-50">Fuji Color</span>'
+title: '<span class="black-50">Fashion Portrait</span>'
 subtitle: '<span class="dark-red">Mood, emotion, wardrobe &amp; <span class="fw7">moment.</span></span>'
+description: "A Portrait Project. I've always loved making portraits of people. I've wanted to bring an element of fashion sensibility and style to this typically static and staid genre for quite a while. What rule dictates the two are mutually exclusive?"
 sideline: 'Editorial | Leather Jacket x Heels'
 sidecolor: "hot-pink"
 image: "images/099A9380.jpg"
