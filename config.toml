@@ -4,6 +4,8 @@ title = "Canned Ox Visuals"
 
 Paginate = 5
 
+ignoreFiles = [ ".*/static/js/react-hugo/node_modules/.*" ]
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"

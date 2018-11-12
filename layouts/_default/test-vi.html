@@ -85,10 +85,36 @@
     </h1>
   </article>
 
+  <div id="like_button_container" class="relative bg-white tc"></div>
+  <div id="react-target" class="relative bg-white tc"></div>
+  <div id="formik-target" class="relative bg-white tc pv4"></div>
+
+  <div id="#img-list" class="dn">
+    <img src="/images/099A0940.jpg">
+    <img src="/images/099A0941.jpg">
+  </div>
+  <div id="image-target" class="relative bg-white tc pv4 ph6"></div>
+
+  <dl id="port" class="dn">
+  {{ with (.Resources.Match "portfolio/*.jpg") }}
+    {{ range . }}
+    <dd data-item="{{.RelPermalink}}"></dd>
+    {{ end }}
+  {{ end }}
+  </dl>
+
+  <div id="port-target" class="relative bg-white tc pv4 ph6"></div>
+
 </section>
 
 {{ end }}
 
 {{ define "footer" }}
   {{ partial "footer" . }}
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="/js/like-button.js"></script>
+  <script src="/js/react-hugo/dist/main.js"></script>
 {{ end }}
