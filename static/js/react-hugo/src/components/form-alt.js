@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from "react-dom";
 import { Formik, Field } from "formik";
+import {Title, MyField, Myform} from "./styledstuff";
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -68,7 +69,7 @@ class Wizard extends React.Component {
         validate={this.validate}
         onSubmit={this.handleSubmit}
         render={({ values, handleSubmit, isSubmitting, handleReset }) => (
-          <form onSubmit={handleSubmit}>
+          <Myform onSubmit={handleSubmit}>
             {activePage}
             <div className="buttons">
               {page > 0 && (
@@ -86,7 +87,7 @@ class Wizard extends React.Component {
             </div>
 
             <pre>{JSON.stringify(values, null, 2)}</pre>
-          </form>
+          </Myform>
         )}
       />
     );
@@ -95,7 +96,7 @@ class Wizard extends React.Component {
 
 export default () => (
   <div className="App">
-    <h1>Multistep / Form Wizard </h1>
+    <Title>Multistep / Form Wizard </Title>
     <Wizard
       initialValues={{
         firstName: "",
@@ -125,7 +126,7 @@ export default () => (
       >
         <div>
           <label>First Name</label>
-          <Field
+          <MyField
             name="firstName"
             component="input"
             type="text"
