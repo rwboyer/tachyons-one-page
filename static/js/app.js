@@ -8,18 +8,20 @@ $( function(){
       "status": "subscribed",
       "merge_fields": {}
     };
-    fetch("https://json-api-wuyywqnnuj.now.sh", {
+    fetch("https://mc-canned-ox.vercel.app", {
+    //fetch("http://localhost:3000", {
       headers: {
       'Accept': 'application/json, text/plain, */*',
       'Content-Type': 'application/json'
       },
       "method": "POST",
       body: JSON.stringify(p)
-    }).then(response => {
+    }).then(response => response.json().then(r => {
+      console.log(r)
       $("#spinner").removeClass("dib");
       $('form.news').trigger("reset");
       $("#subscribe").prop("disabled", false);
-    });
+    }));
   });
 });
 
